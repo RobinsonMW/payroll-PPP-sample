@@ -1,12 +1,18 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32126.317
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayrollUI", "PayrollUI\PayrollUI.csproj", "{9A624B5A-14C1-47A5-81FD-B0166895EDC3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C43D3311-FD20-4D3F-AA69-5DEF4CCD7AA9} = {C43D3311-FD20-4D3F-AA69-5DEF4CCD7AA9}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payroll", "Payroll\Payroll.csproj", "{C43D3311-FD20-4D3F-AA69-5DEF4CCD7AA9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayrollDB", "PayrollDB\PayrollDB.csproj", "{3E59CA26-38DA-4AAF-8423-0F4E39FD3AE9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C43D3311-FD20-4D3F-AA69-5DEF4CCD7AA9} = {C43D3311-FD20-4D3F-AA69-5DEF4CCD7AA9}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,5 +35,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6FF36BA6-2E78-4613-B0C2-7A12D6EB73EF}
 	EndGlobalSection
 EndGlobal

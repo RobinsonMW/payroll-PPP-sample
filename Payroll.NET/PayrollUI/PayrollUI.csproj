@@ -77,7 +77,7 @@
     </Reference>
     <Reference Include="PayrollDB">
       <Name>PayrollDB</Name>
-      <HintPath>..\PayrollDB\bin\Debug\PayrollDB.dll</HintPath>
+      <HintPath>..\PayrollDB\obj\Debug\PayrollDB.dll</HintPath>
     </Reference>
     <Reference Include="System">
       <Name>System</Name>
